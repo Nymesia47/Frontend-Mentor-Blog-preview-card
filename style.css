@@ -21,3 +21,12 @@ body {
     align-items: center;
     margin: auto;
 }
+
+.preview-img {
+    border-radius: 15px;
+    object-fit: contain;   
+}
+
+footer {
+    margin: 30px;
+}
