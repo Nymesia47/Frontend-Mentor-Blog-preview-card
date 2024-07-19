@@ -15,6 +15,10 @@ body {
     color: #111111;
 }
 
+.article-anchor {
+    text-decoration: none;
+}
+
 
 .card-preview {
     background-color: white ;
@@ -76,6 +80,15 @@ body {
     font-weight: bold;
     line-height: 150%;
     letter-spacing: 0px;
+}
+
+.article-anchor:hover, .article-anchor:focus {
+    .article-title {
+        color: #F4D04E;
+    }
+    .card-preview {
+        box-shadow: 13px 13px 2px 1px #111111;;
+    }
 }
 
 footer {
