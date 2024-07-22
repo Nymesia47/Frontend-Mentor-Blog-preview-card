@@ -27,6 +27,8 @@ body {
     padding: 20px;
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
+    max-width: 400px;
     justify-content: start;
     align-items: start;
     margin: auto;
@@ -93,4 +95,11 @@ body {
 
 footer {
     margin: 30px;
+}
+
+@media (width:768) {
+    .card-preview {
+        width: 400px;
+        height: 600px;
+    }
 }
